@@ -1,0 +1,414 @@
+    .sec7main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .sec7row {
+        width: 25%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text7 {
+        color: #F6C443;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0%;
+    }
+    
+    .subtext7 {
+        color: #252525;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        line-height: 1;
+    }
+    
+    .sec8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('/img/background.png');
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    
+    .sec8overlay {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .sec8text {
+        color: #FFF;
+        font-family: Comfortaa;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 50px;
+        background: #FF2F00;
+        padding: 15px 15px;
+    }
+    
+    .sec8sub {
+        color: #FFF;
+        font-family: Bebas Neue;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .sec8subt {
+        color: #FFF;
+        text-align: center;
+        font-family: Sans Pro;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .name {
+        color: #FFF;
+        text-align: center;
+        font-family: Bebas Neue;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        line-height: 1;
+    }
+    
+    .founder {
+        color: #FFF;
+        text-align: center;
+        font-family: Sans Pro;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    
+    .dot {
+        font-weight: bold;
+        font-size: 50px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 0.75;
+    }
+    
+    @media only screen and (max-width: 1570px) {
+        .sec8text {
+            font-size: 32px;
+        }
+        .sec8sub {
+            color: #FFF;
+            font-family: Bebas Neue;
+            font-size: 80px;
+        }
+        .sec8subt {
+            font-size: 30px;
+        }
+        .name {
+            color: #FFF;
+            text-align: center;
+            font-family: Bebas Neue;
+            font-size: 30px;
+        }
+        .founder {
+            font-size: 18px;
+        }
+        .dot {
+            font-size: 40px;
+        }
+        .testimonialpic {
+            width: 200px;
+        }
+    }
+    
+    @media only screen and (max-width: 1360px) {
+        .text7 {
+            font-size: 56px;
+        }
+        .subtext7 {
+            font-size: 16px;
+        }
+        .sec8text {
+            font-size: 30px;
+        }
+        .sec8sub {
+            font-size: 75px;
+        }
+        .sec8subt {
+            font-size: 28px;
+        }
+        .name {
+            font-size: 28px;
+        }
+        .founder {
+            font-size: 17px;
+        }
+        .dot {
+            font-size: 36px;
+        }
+        .testimonialpic {
+            width: 180px;
+        }
+    }
+    
+    @media only screen and (max-width: 1270px) {
+        .sec8text {
+            font-size: 26px;
+        }
+        .sec8sub {
+            font-size: 70px;
+        }
+        .sec8subt {
+            font-size: 25px;
+        }
+        .name {
+            font-size: 25px;
+        }
+        .founder {
+            font-size: 18px;
+        }
+        .dot {
+            font-size: 30px;
+        }
+        .testimonialpic {
+            width: 150px;
+        }
+    }
+    
+    @media only screen and (max-width: 1120px) {
+        .text7 {
+            font-size: 50px;
+        }
+        .subtext7 {
+            font-size: 13px;
+        }
+        .sec8text {
+            font-size: 22px;
+        }
+        .sec8sub {
+            font-size: 65px;
+        }
+        .sec8subt {
+            font-size: 22px;
+        }
+        .name {
+            font-size: 22px;
+        }
+        .founder {
+            font-size: 16px;
+        }
+        .dot {
+            font-size: 25px;
+        }
+        .testimonialpic {
+            width: 150px;
+        }
+        .startestimonial {
+            width: 100px;
+        }
+    }
+    
+    @media only screen and (max-width: 960px) {
+        .text7 {
+            font-size: 48px;
+        }
+        .subtext7 {
+            font-size: 13px;
+        }
+        .sec8text {
+            font-size: 20px;
+        }
+        .sec8sub {
+            font-size: 60px;
+        }
+        .sec8subt {
+            font-size: 20px;
+        }
+        .name {
+            font-size: 20px;
+        }
+        .founder {
+            font-size: 14px;
+        }
+        .dot {
+            font-size: 20px;
+        }
+        .testimonialpic {
+            width: 130px;
+        }
+        .startestimonial {
+            width: 90px;
+        }
+    }
+    
+    @media only screen and (max-width: 660px) {
+        .text7 {
+            font-size: 43px;
+        }
+        .subtext7 {
+            font-size: 13px;
+        }
+        .sec8text {
+            font-size: 18px;
+        }
+        .sec8sub {
+            font-size: 54px;
+        }
+        .sec8subt {
+            font-size: 18px;
+        }
+        .name {
+            font-size: 18px;
+        }
+        .founder {
+            font-size: 13px;
+        }
+        .dot {
+            font-size: 18px;
+        }
+        .testimonialpic {
+            width: 110px;
+        }
+        .startestimonial {
+            width: 80px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .text7 {
+            font-size: 40px;
+        }
+        .subtext7 {
+            font-size: 13px;
+            line-height: 1;
+        }
+        .sec8text {
+            font-size: 16px;
+        }
+        .sec8sub {
+            font-size: 50px;
+        }
+        .sec8subt {
+            font-size: 16px;
+        }
+        .name {
+            font-size: 16px;
+        }
+        .founder {
+            font-size: 13px;
+        }
+        .dot {
+            font-size: 16px;
+        }
+        .testimonialpic {
+            width: 100px;
+        }
+        .startestimonial {
+            width: 70px;
+        }
+    }
+    
+    @media only screen and (max-width: 400px) {
+        .text7 {
+            font-size: 30px;
+        }
+        .subtext7 {
+            font-size: 11px;
+            line-height: 1;
+        }
+        .sec8text {
+            font-size: 14px;
+        }
+        .sec8sub {
+            font-size: 40px;
+        }
+        .sec8subt {
+            font-size: 14px;
+        }
+        .name {
+            font-size: 14px;
+        }
+        .founder {
+            font-size: 12px;
+        }
+        .dot {
+            font-size: 14px;
+        }
+        .testimonialpic {
+            width: 90px;
+        }
+        .startestimonial {
+            width: 60px;
+        }
+    }
+    
+    @media only screen and (max-width: 380px) {
+        .text7 {
+            font-size: 25px;
+        }
+        .subtext7 {
+            font-size: 11px;
+            line-height: 1;
+        }
+        .sec8text {
+            font-size: 13px;
+        }
+        .sec8sub {
+            font-size: 35px;
+        }
+        .sec8subt {
+            font-size: 13px;
+        }
+        .name {
+            font-size: 143x;
+        }
+        .founder {
+            font-size: 12px;
+        }
+        .dot {
+            font-size: 13px;
+        }
+        .testimonialpic {
+            width: 80px;
+        }
+        .startestimonial {
+            width: 50px;
+        }
+    }

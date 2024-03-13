@@ -1,0 +1,304 @@
+.sec5main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.sec5row {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec5front {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.fast {
+    color: #000;
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 4px solid;
+    border-color: #D35166;
+    text-align: center;
+}
+
+.grid-item5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pizza {
+    color: #AEAEAE;
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.burger {
+    color: #AEAEAE;
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.container-sec5 {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 85px;
+    justify-content: center;
+}
+
+.text5 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.title5 {
+    color: #DBD52D;
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.star {
+    width: 150px;
+}
+
+.price {
+    color: #C82742;
+    text-align: center;
+    font-family: Yanone Kaffeesatz;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 1360px) {
+    .fast {
+        font-size: 56px;
+    }
+    .pizza {
+        font-size: 56px;
+    }
+    .burger {
+        font-size: 56px;
+    }
+    .container-sec5 {
+        margin-top: 30px;
+        display: flex;
+        column-gap: 85px;
+        justify-content: center;
+    }
+    .title5 {
+        font-size: 30px;
+    }
+    .star {
+        width: 100px;
+    }
+    .price {
+        font-size: 30px;
+    }
+    .image5 {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .fast {
+        font-size: 50px;
+    }
+    .pizza {
+        font-size: 50px;
+    }
+    .burger {
+        font-size: 50px;
+    }
+    .container-sec5 {
+        margin-top: 25px;
+        display: flex;
+        column-gap: 85px;
+        justify-content: center;
+    }
+    .title5 {
+        font-size: 25px;
+    }
+    .star {
+        width: 80px;
+    }
+    .price {
+        font-size: 25px;
+    }
+    .image5 {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .fast,
+    .pizza,
+    .burger {
+        font-size: 45px;
+    }
+    .container-sec5 {
+        margin-top: 25px;
+        display: flex;
+        column-gap: 85px;
+        justify-content: center;
+    }
+    .title5 {
+        font-size: 22px;
+    }
+    .star {
+        width: 70px;
+    }
+    .price {
+        font-size: 22px;
+    }
+    .image5 {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .fast,
+    .pizza,
+    .burger {
+        font-size: 40px;
+    }
+    .image5 {
+        width: 160px;
+    }
+    .title5,
+    .price {
+        font-size: 20px;
+    }
+    .star {
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sec5row {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image5div {
+        justify-content: center;
+        display: flex;
+    }
+    .grid-item5 {
+        justify-content: center;
+        display: flex;
+    }
+    .image5 {
+        width: auto;
+        height: auto;
+    }
+    .fast,
+    .pizza,
+    .burger {
+        font-size: 50px;
+    }
+    .title5,
+    .price {
+        font-size: 30px;
+    }
+    .star {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .fast,
+    .pizza,
+    .burger {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .fast,
+    .pizza,
+    .burger {
+        font-size: 30px;
+    }
+    .title5,
+    .price {
+        font-size: 25px;
+    }
+    .star {
+        width: 90px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .fast,
+    .pizza,
+    .burger {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .fast,
+    .pizza,
+    .burger {
+        font-size: 24px;
+    }
+    .title5,
+    .price {
+        font-size: 22px;
+    }
+    .star {
+        width: 80px;
+    }
+    .image5 {
+        width: 90%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .fast,
+    .pizza,
+    .burger {
+        font-size: 20px;
+    }
+    .title5,
+    .price {
+        font-size: 20px;
+    }
+    .star {
+        width: 70px;
+    }
+    .image5 {
+        width: 80%;
+        height: 100%;
+    }
+}

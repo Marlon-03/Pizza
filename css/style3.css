@@ -1,0 +1,190 @@
+.pizzamain {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    text-align: center;
+    color: aqua;
+}
+
+.grill {
+    color: #FFF;
+    font-family: Yanone Kaffeesatz;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+.summer {
+    color: #FFF;
+    font-family: Yanone Kaffeesatz;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0px;
+}
+
+.free {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 1360px) {
+    .grill {
+        font-size: 80px;
+    }
+    .summer {
+        font-size: 55px;
+    }
+    .free {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .grill {
+        font-size: 75px;
+    }
+    .summer {
+        font-size: 50px;
+    }
+    .free {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .grill {
+        font-size: 70px;
+    }
+    .summer {
+        font-size: 45px;
+    }
+    .free {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .grill {
+        font-size: 60px;
+    }
+    .summer {
+        font-size: 40px;
+    }
+    .free {
+        font-size: 13px;
+    }
+    .pizzamain {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .grill {
+        font-size: 50px;
+    }
+    .summer {
+        font-size: 35px;
+    }
+    .free {
+        font-size: 13px;
+    }
+    .pizzamain {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .grill {
+        font-size: 40px;
+    }
+    .summer {
+        font-size: 28px;
+    }
+    .free {
+        font-size: 13px;
+    }
+    .pizzamain {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .grill {
+        font-size: 35px;
+        line-height: 1;
+    }
+    .summer {
+        font-size: 24px;
+    }
+    .free {
+        font-size: 12px;
+    }
+    .pizzamain {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .grill {
+        font-size: 32px;
+        line-height: 1;
+    }
+    .summer {
+        font-size: 21px;
+    }
+    .free {
+        font-size: 13px;
+    }
+    .pizzamain {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .grill {
+        font-size: 28px;
+        line-height: 1;
+    }
+    .summer {
+        font-size: 18px;
+    }
+    .free {
+        font-size: 13px;
+    }
+    .pizzamain {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .grill {
+        font-size: 22px;
+        line-height: 1;
+    }
+    .summer {
+        font-size: 14px;
+    }
+    .free {
+        font-size: 12px;
+    }
+    .pizzamain {
+        margin-bottom: 30px;
+    }
+}

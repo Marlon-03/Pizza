@@ -1,0 +1,201 @@
+.sec4main {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 80px;
+}
+
+.sec4-1,
+.sec4-2,
+.sec4-3 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4-1 {
+    background-image: url('/img/4-1.png');
+    text-align: center;
+    padding-top: 60px;
+    background-size: contain;
+    padding-bottom: 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.sec4-2 {
+    background-image: url('/img/3\ 1.png');
+    text-align: center;
+    padding-top: 60px;
+    background-size: contain;
+    padding-bottom: 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.sec4-3 {
+    background-image: url('/img/4\ 1.png');
+    text-align: center;
+    padding-top: 60px;
+    background-size: contain;
+    padding-bottom: 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.main4text {
+    color: #FFF;
+    font-family: Yanone Kaffeesatz;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.90;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sub {
+    color: #FFF;
+    font-family: Yanone Kaffeesatz;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0px;
+}
+
+.subt {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 1360px) {
+    .main4text {
+        font-size: 80px;
+    }
+    .sub {
+        font-size: 64px;
+    }
+    .subt {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    .main4text {
+        font-size: 70px;
+    }
+    .sub {
+        font-size: 56px;
+    }
+    .subt {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .main4text {
+        font-size: 65px;
+    }
+    .sub {
+        font-size: 52px;
+    }
+    .subt {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .main4text {
+        font-size: 60px;
+    }
+    .sub {
+        font-size: 48px;
+    }
+    .subt {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sec4main {
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .sec4-1,
+    .sec4-2,
+    .sec4-3 {
+        width: 100%;
+        height: 250px;
+    }
+    .main4text {
+        font-size: 80px;
+    }
+    .sub {
+        font-size: 64px;
+    }
+    .subt {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main4text {
+        font-size: 55px;
+    }
+    .sub {
+        font-size: 50px;
+    }
+    .subt {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main4text {
+        font-size: 50px;
+    }
+    .sub {
+        font-size: 45px;
+    }
+    .subt {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .main4text {
+        font-size: 45px;
+    }
+    .sub {
+        font-size: 40px;
+    }
+    .subt {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .main4text {
+        font-size: 40px;
+    }
+    .sub {
+        font-size: 35px;
+    }
+    .subt {
+        font-size: 14px;
+    }
+}

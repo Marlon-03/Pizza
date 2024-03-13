@@ -1,0 +1,200 @@
+    .sec6main {
+        display: flex;
+    }
+    
+    .clientpic6 {
+        width: 100%;
+    }
+    
+    .sec6left {
+        width: 45%;
+        margin-left: 35px;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .sec6right {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .simple {
+        color: #F54A46;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 150px;
+    }
+    
+    .client {
+        color: #F54A46;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .contrary {
+        color: #C4C4C4;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .gonzales {
+        color: #252525;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    .founders {
+        color: #C4C4C4;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 0.75;
+        margin-top: 0px;
+    }
+    
+    @media only screen and (max-width: 1360px) {
+        .clientpic6 {
+            width: 400px;
+        }
+        .sec6left {
+            width: 50%;
+            margin-left: 35px;
+            display: flex;
+            align-items: flex-end;
+        }
+        .sec6right {
+            width: 50%;
+        }
+        .simple {
+            font-size: 16px;
+        }
+        .client {
+            font-size: 16px;
+        }
+        .contrary {
+            font-size: 16px;
+        }
+        .gonzales {
+            font-size: 24px;
+        }
+        .founders {
+            font-size: 16px;
+        }
+    }
+    
+    @media only screen and (max-width: 1060px) {
+        .simple {
+            margin-top: 110px;
+        }
+    }
+    
+    @media only screen and (max-width: 860px) {
+        .clientpic6 {
+            width: 370px;
+        }
+        .sec6left {
+            width: 50%;
+            margin-left: 35px;
+            display: flex;
+            align-items: flex-end;
+        }
+        .sec6right {
+            width: 50%;
+        }
+        .simple,
+        .client,
+        .contrary,
+        .founders {
+            font-size: 16px;
+        }
+        .gonzales {
+            font-size: 22px;
+        }
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .clientpic6 {
+            width: 300px;
+        }
+        .sec6left {
+            width: 50%;
+            margin-left: 35px;
+            display: flex;
+            align-items: flex-end;
+        }
+        .sec6right {
+            width: 50%;
+        }
+        .simple,
+        .client,
+        .contrary,
+        .founders {
+            font-size: 14px;
+        }
+        .gonzales {
+            font-size: 18px;
+        }
+    }
+    
+    @media only screen and (max-width: 660px) {
+        .sec6main {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .sec6left,
+        .sec6right {
+            width: auto;
+        }
+        .sec6right {
+            display: flex;
+            align-items: center;
+        }
+        .simple {
+            margin-top: 0px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .clientpic6 {
+            width: 270px;
+        }
+    }
+    
+    @media only screen and (max-width: 400px) {
+        .clientpic6 {
+            width: 240px;
+        }
+    }
+    
+    @media only screen and (max-width: 330px) {
+        .clientpic6 {
+            width: 200px;
+        }
+    }
